@@ -172,14 +172,14 @@ d.clear()
 print(d)
 
 # Copiando um dicionário para outro
-# Forma 1 # DeepCopy
+# Forma 1 # ShallowCopy
 novo = d.copy()
 print(novo) # {'a': 1, 'b': 2, 'c': 3}
 novo_valor = {'d': 4}
 novo.update(novo_valor) # {'a': 1, 'b': 2, 'c': 3, 'd': 4} 
 print(novo)
 
-#Forma 2 # ShallowCopy
+#Forma 2 # Referência/Atribuição direta
 novo = d
 print(novo)
 novo_valor = {'d': 5}
