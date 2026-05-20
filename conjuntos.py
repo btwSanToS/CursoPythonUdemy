@@ -83,9 +83,6 @@ print(a ^ b) # ^ representado como DIFERENÇA SIMÉTRICA.
 # ou
 print(a.symmetric_difference(b)) # Outra maneira de realizar DIFERENÇA SIMÉTRICA.
 
-
-
-"""
 numeros = [1, 2, 3, 2, 4, 5, 1, 6, 4, 7]
 numerors_set = set(numeros)
 print(numerors_set)
@@ -110,10 +107,4 @@ print(permissoes_usuario)
 permissoes_usuario.discard('editar')
 print(permissoes_usuario)
 
-
-
-
-
-
-
-
+"""
